@@ -36,7 +36,7 @@ class Lexer:
 
     def replace_literal(self, string):
         array = string.split("'")
-        output = ""
+        output = "'"
         for i, el in enumerate(array):
             if i % 2 == 0:
                 buf = ""
@@ -50,8 +50,8 @@ class Lexer:
                 if buf:
                     output += chr(int(buf))
             else:
-                output += "'" + el + "'"
-        return output
+                output += el
+        return output + "'"
 
     def next_lexem(self):
         self.buf = ""
@@ -108,6 +108,8 @@ class Lexer:
                     self.state = "undefined"
                     if self.reserved.count(self.buf.lower()):
                         self.token = Token(self.coord, "зарезервированное слово", self.buf, self.buf.lower())
+                    elif ['div', 'mod'].count(self.buf.lower()):
+                        self.token = Token(self.coord, "операция", self.buf, self.buf.lower())
                     else:
                         self.token = Token(self.coord, "идентификатор", self.buf, self.buf.lower())
                     return self.token
@@ -245,7 +247,7 @@ class Lexer:
                 self.token = Token(self.coord, "сепаратор", self.buf, self.buf)
                 return self.token
             elif self.state == "error":
-                if not [" ", "\n", "\t", "\r", '.', ',', ':', ';', '(', ')', '[', ']'].count(self.symb):
+                if not [" ", "\n", "\t", "\r", '.', ',', ':', ';', '(', ')', '[', ']', ''].count(self.symb):
                     self.buf += self.symb
                     self.next_symb()
                 else:

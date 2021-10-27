@@ -1,0 +1,5 @@
+program hello;
+	var abc25, bx, cs: integer;
+begin
+	c := a - b + 15.5;
+end.

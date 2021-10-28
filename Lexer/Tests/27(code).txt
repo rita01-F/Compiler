@@ -1,7 +1,6 @@
-{$1da}
+{$1d
+a}
 {2$a}
 {3f}
 (*dsamkd *)
 // sadkl
-{4a
-sa

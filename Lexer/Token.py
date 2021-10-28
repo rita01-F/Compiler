@@ -6,7 +6,7 @@ class Token:
         self.value = value
 
     def get_str(self):
-        tab = " " * 8
+        tab = "\t" * 2
         return f"{self.coord}{tab}" \
                f"{self.type}{tab}" \
                f"{self.code}{tab}" \

@@ -1,1 +1,1 @@
-[1, 1]        Lexical error: 5e
+[1, 1]		Lexical error: 5e

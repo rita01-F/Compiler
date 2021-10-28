@@ -1,1 +1,1 @@
-[1, 1]        Lexical error: $af16
+[1, 1]		integer 16		$af16		44822

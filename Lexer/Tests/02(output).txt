@@ -1,3 +1,3 @@
-[1, 1]        идентификатор        a        a
-[2, 1]        идентификатор        ATest        atest
-[3, 1]        идентификатор        a_test1        a_test1
+[1, 1]		identifier		a		a
+[2, 1]		identifier		ATest		atest
+[3, 1]		identifier		a_test1		a_test1

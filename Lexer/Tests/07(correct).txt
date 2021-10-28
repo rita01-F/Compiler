@@ -1,1 +1,1 @@
-[1, 1]        Lexical error: &1572
+[1, 1]		integer 8		&1572		890

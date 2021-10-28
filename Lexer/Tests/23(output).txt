@@ -1,1 +1,2 @@
-[1, 1]        Lexical error: ==
+[1, 1]		operation		=		=
+[1, 2]		operation		=		=

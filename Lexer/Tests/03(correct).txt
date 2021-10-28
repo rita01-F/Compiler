@@ -1,1 +1,1 @@
-[1, 1]        Lexical error: $
+[1, 1]		Lexical error: $

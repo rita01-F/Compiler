@@ -1,1 +1,2 @@
-[1, 1]        Lexical error: %100210011110
+[1, 1]		integer 2		%10101		21
+[2, 1]		Lexical error: %100210011110

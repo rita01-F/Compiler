@@ -33,11 +33,11 @@ class Parser:
     def parse_factor(self):
         token = self.lexer.current_lexem()
         self.lexer.next_lexem()
-        if token.get_type() == "идентификатор":
+        if token.get_type() == "identifier":
             return IdentifierNode(token)
-        elif token.get_type() == "целое число":
+        elif token.get_type() == "integer":
             return IntNode(token)
-        elif token.get_type() == "вещественное число":
+        elif token.get_type() == "real":
             return RealNode(token)
         elif ["+", "-"].count(token.get_value()):
             operand = self.parse_expr()

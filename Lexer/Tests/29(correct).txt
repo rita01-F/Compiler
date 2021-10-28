@@ -1,1 +1,1 @@
-[1, 1]        строка        'gh'#65'fjfhsksj'        'ghAfjfhsksj'
+[1, 1]		string		'gh'#65'fjfhsksj'		'ghAfjfhsksj'

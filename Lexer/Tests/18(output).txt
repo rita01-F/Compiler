@@ -1,2 +1,2 @@
-[1, 1]        идентификатор        a        a
-[1, 2]        Lexical error: @
+[1, 1]		identifier		a		a
+[1, 2]		Lexical error: @

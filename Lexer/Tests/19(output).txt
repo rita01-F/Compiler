@@ -1,14 +1,20 @@
-[1, 1]        идентификатор        a        a
-[1, 3]        операция        +        +
-[1, 5]        идентификатор        b        b
-[2, 1]        целое число        1        1
-[2, 2]        операция        +        +
-[2, 3]        целое число        2        2
-[3, 1]        операция        -        -
-[4, 1]        операция        *        *
-[5, 1]        операция        **        **
-[6, 1]        операция        /        /
-[7, 1]        операция        div        div
-[8, 1]        операция        mod        mod
-[9, 1]        идентификатор        a        a
-[9, 3]        Lexical error: >
+[1, 1]		identifier		a		a
+[1, 3]		operation		+		+
+[1, 5]		identifier		b		b
+[2, 1]		integer		1		1
+[2, 2]		operation		+		+
+[2, 3]		integer		2		2
+[3, 1]		operation		-		-
+[4, 1]		operation		*		*
+[5, 1]		operation		**		**
+[6, 1]		operation		/		/
+[7, 1]		operation		div		div
+[8, 1]		operation		mod		mod
+[9, 1]		identifier		a		a
+[9, 3]		operation		>		>
+[9, 5]		identifier		b		b
+[10, 1]		integer		1		1
+[10, 2]		operation		<		<
+[10, 3]		integer		2		2
+[11, 1]		operation		>=		>=
+[12, 1]		operation		<=		<=
